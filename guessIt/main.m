@@ -19,10 +19,10 @@ int main(int argc, const char * argv[]) {
             NSLog(@"Guess #%i: Enter a number between 1 to 100", turn);
             scanf("%i", &guess);
             if(guess>answer){
-                NSLog(@"Lower");
+                NSLog(@"Lower number");
             }
             else if(guess<answer){
-                NSLog(@"Higher");
+                NSLog(@"Higher number");
                 }
             
             else{
